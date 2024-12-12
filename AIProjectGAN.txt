@@ -120,4 +120,4 @@ discriminator = build_discriminator()
 gan = build_gan(generator, discriminator)
 
 # Train the GAN
-train_gan(generator, discriminator, gan, cat_images, epochs=1000, batch_size=64)
+train_gan(generator, discriminator, gan, cat_images, epochs=100, batch_size=64)
